@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
 
-rng = np.random.default_rng()
+rng = np.random.default_rng(42)
 
 def wh_vertices(vertices):
     xx, yy = zip(*vertices)
